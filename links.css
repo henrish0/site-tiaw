@@ -1,0 +1,100 @@
+body {
+    background-color: #d6d6d6;
+}
+
+/* Fontes */
+#full_header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+/* Botões do header */
+#botoesheader {
+    margin-left: 1.7rem;
+}
+
+ul li a {
+    font-size: 1.2rem;
+}
+
+/* Logo */
+a strong {
+    font-size: 1.4rem;
+}
+
+.nav-bar-button {
+    outline: 0 !important;
+}
+
+.nav-bar-button:hover {
+    background-color: #d6d6d6;
+    transition: 0.3s;
+}
+
+.nav-bar-links,
+#logintop {
+    text-align: center;
+}
+
+#textlogintop {
+    font-size: 1.1rem;
+}
+
+/* Imagem */
+#imglnk {
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Texto ao topo do link */
+#cardtxt {
+    justify-content: center;
+    text-align: center !important;
+}
+
+/* Link */
+#lnkclr {
+    background-color: rgb(62, 102, 251, 0.1);
+    border-radius: 1rem;
+}
+
+/* Container final */
+#contfinal {
+    margin-bottom: 5rem !important;
+}
+
+
+@media screen and (max-width:870px) {
+    #botoesheader {
+        padding-left: 0px !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    ul li a {
+        font-size: unset;
+    }
+}
+
+@media screen and (max-width:590px) {
+    #imglnk {
+        width: 0px !important;
+        position: absolute !important;
+    }
+
+    /* Containers */
+    #contf,
+    #contfinal {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+
+@media screen and (max-width:348px) {
+    #logo {
+        margin: 0px !important;
+    }
+
+}
