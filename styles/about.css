@@ -1,11 +1,15 @@
 body {
-    background-color: #d6d6d6;
+    background-color: #c8d8e4;
 }
 
 /* Fontes */
 #full_header {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+}
+
+.bg-brnc {
+    background-color: #ffffff;
 }
 
 /* Botões do header */
@@ -40,6 +44,27 @@ a strong {
     font-size: 1.1rem;
 }
 
+/* Cartões */
+#card {
+    text-align: center;
+    padding: 0px;
+    margin: 10px;
+}
+
+.bg-card {
+    background-color: #52ab98;
+}
+
+/* Remover espaço entre cards*/
+#cardin {
+    width: 100% !important;
+}
+
+/* Texto final */
+#topbtext {
+    font-size: 2.5rem;
+
+}
 
 @media screen and (max-width:870px) {
     #botoesheader {

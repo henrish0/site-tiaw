@@ -1,5 +1,5 @@
 body {
-    background-color: #d6d6d6;
+    background-color: #c8d8e4;
 }
 
 /* Fontes */
@@ -8,6 +8,9 @@ body {
     font-weight: 500;
 }
 
+.bg-brnc {
+    background-color: #ffffff;
+}
 
 /* Botões do header */
 #botoesheader {
@@ -41,23 +44,31 @@ a strong {
     font-size: 1.1rem;
 }
 
-/* Cartões */
-#card {
+/* Imagem */
+#imglnk {
     text-align: center;
-    padding: 0px;
-    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-/* Remover espaço entre cards*/
-#cardin {
-    width: 100% !important;
+/* Texto ao topo do link */
+#cardtxt {
+    justify-content: center;
+    text-align: center !important;
 }
 
-/* Texto final */
-#topbtext {
-    font-size: 2.5rem;
-
+/* Link */
+#lnkclr {
+    background-color: #2b6777;
+    border-radius: 1rem;
 }
+
+/* Container final */
+#contfinal {
+    margin-bottom: 5rem !important;
+}
+
 
 @media screen and (max-width:870px) {
     #botoesheader {
@@ -65,9 +76,23 @@ a strong {
     }
 }
 
-@media screen and (max-width:767px) {   
+@media screen and (max-width:767px) {
     ul li a {
         font-size: unset;
+    }
+}
+
+@media screen and (max-width:590px) {
+    #imglnk {
+        width: 0px !important;
+        position: absolute !important;
+    }
+
+    /* Containers */
+    #contf,
+    #contfinal {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
     }
 }
 

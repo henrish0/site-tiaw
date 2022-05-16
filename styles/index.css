@@ -1,0 +1,82 @@
+body {
+    background-color: #c8d8e4;
+}
+
+/* Fontes */
+#full_header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.bg-brnc {
+    background-color: #ffffff;
+}
+
+/* Botões do header */
+#botoesheader {
+    margin-left: 1.7rem;
+}
+
+ul li a {
+    font-size: 1.2rem;
+}
+
+/* Logo */
+a strong {
+    font-size: 1.4rem;
+}
+
+.nav-bar-button {
+    outline: 0 !important;
+}
+
+.nav-bar-button:hover {
+    background-color: #d6d6d6;
+    transition: 0.3s;
+}
+
+.nav-bar-links,
+#logintop {
+    text-align: center;
+}
+
+#textlogintop {
+    font-size: 1.1rem;
+}
+
+/* Cartões */
+#card {
+    text-align: center;
+    padding: 0px;
+    margin: 10px;
+}
+
+/* Remover espaço entre cards*/
+#cardin {
+    width: 100% !important;
+}
+
+/* Texto final */
+#topbtext {
+    font-size: 2.5rem;
+
+}
+
+@media screen and (max-width:870px) {
+    #botoesheader {
+        padding-left: 0px !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    ul li a {
+        font-size: unset;
+    }
+}
+
+@media screen and (max-width:348px) {
+    #logo {
+        margin: 0px !important;
+    }
+
+}
